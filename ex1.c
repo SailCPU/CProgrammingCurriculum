@@ -6,7 +6,7 @@ void main()
     float x1,x2;
     float x3,x4;
     printf("input the numbers: a,b,c");
-    scanf("%f %f %f",&a,&b,&c);
+    scanf("%f %f %f",&a,&b,&c);//Sail:这里一般用空格隔开。
     if (fabs(a)<1e-6)
     {
         printf("the input is error\n");
