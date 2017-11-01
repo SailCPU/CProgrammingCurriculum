@@ -1,7 +1,7 @@
 /*
  * Issue1 :Print Hello world
  *
- * Authors: Sail Yang <SailCPU@gmail.com>
+ * Authors: Moshang Fan <fanmover@sina.com>
  *
  */
 

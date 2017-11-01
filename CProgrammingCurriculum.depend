@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1509543426 source:/home/pi/CProgrammingCurriculum/issue1.c
+
+1509541883 source:/home/pi/CProgrammingCurriculum/issue2.c
+
+1509541883 source:/home/pi/CProgrammingCurriculum/issue4.c
+
+1509542917 source:/home/pi/CProgrammingCurriculum/issue3.c
+
+1509543090 source:/home/pi/CProgrammingCurriculum/issue5.c
+
+1509543427 source:/home/pi/CProgrammingCurriculum/main.c
+	<stdio.h>
+	<stdlib.h>
+
