@@ -11,7 +11,7 @@
 int main()
 {
     //issue1();
-    //issue2();
+    issue2();
     //issue3();
     //issue4();
     //issue5();

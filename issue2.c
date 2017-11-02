@@ -18,5 +18,13 @@ void issue2()
 
 printf("Issue2:Program to Print ASCII Value\n");
 //Add your code below.
+printf("Enter a character:");
+char a;
+scanf("%c",&a);
+printf("ASCII value of %c=%d",a,a);
+
+
+
+
 
 }
