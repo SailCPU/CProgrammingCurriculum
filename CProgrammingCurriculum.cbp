@@ -34,6 +34,30 @@
 		<Unit filename="issue1.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="issue10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="issue11.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="issue12.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="issue13.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="issue14.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="issue15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="issue16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="issue17.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="issue2.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -41,6 +65,18 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="issue4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="issue6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="issue7.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="issue8.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="issue9.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="main.c">
