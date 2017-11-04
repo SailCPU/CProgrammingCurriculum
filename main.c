@@ -8,8 +8,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-    issue1();
+int main()
+{
+   tiger1();
+//    issue1();
     //issue2();
     //issue3();
     //issue4();
