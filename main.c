@@ -8,9 +8,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
-{
-    //issue1();
+int main() {
+    issue1();
     //issue2();
     //issue3();
     //issue4();
@@ -26,6 +25,6 @@ int main()
     //issue14();
     //issue15();
     //issue16();
-    issue17();
+//    issue17();
     return 0;
 }
