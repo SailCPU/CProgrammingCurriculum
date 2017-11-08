@@ -8,7 +8,25 @@
 
 int main()
 {
-
+    int Id;
+    int i;
+    int Keys[20]={4,6,2,8,4,4,8,6,2,4,8,6,2,4,8,6,4,6,2,8};
+    for(i=0;i<20;i++){
+        addElementRandom();
+        display();
+        update(Keys[i]);
+        printf("\n\ntest key:%d\n",Keys[i]);
+    }
+//    int forever=1;
+//    while(forever){
+//
+//        addElementRandom();
+//        display();
+//        scanf("%d",&Id);
+//
+//        update(Id);
+//        printf("\n");
+//    }
 //   tiger1();
 //    issue1();
     //issue2();
@@ -27,5 +45,6 @@ int main()
     //issue15();
     //issue16();
 //    issue17();
+
     return 0;
 }
