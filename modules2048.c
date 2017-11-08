@@ -7,13 +7,11 @@ int matrix[4][4] = {{0, 0, 0, 0},
                     {0, 0, 0, 0},
                     {0, 0, 0, 0},
                     {0, 0, 0, 0}};
-int score = 0;
+int score = 0;//2048程序界面出现的数字总和
+
 int MaxNumber = 2;
 int oneLine[4] = {0, 0, 0, 0};
 
-void init() {
-
-}
 
 void update(int keyId) {
     int i, j;
@@ -218,36 +216,36 @@ void compress(int a1, int a2, int a3, int a4) {
     }
 }
 
-void addElementRandom() {
+int addElementRandom() {
     int i, j;
     int m = 0;
     int n = 0;
     int c;
     for (i = 0; i < 4; i++) {
         for (j = 0; j < 4; j++) {
-            m++;
-        }
-    }
-    srand((unsigned) time(NULL));
-    c=rand() % m +1;
-
-    for (i = 0; i < 4; i++) {
-        for (j = 0; j < 4; j++) {
-            n++;
-            if (n == c) {
-                matrix[i][j] = 2;
-                goto state;
+            if(matrix[i][j]==0) {
+                m++;
             }
         }
     }
-    state:;
+    if(m==0){
+        return 1;
+    }
+
+    srand((unsigned) time(NULL));
+    c=rand() % m +1;
+    for (i = 0; i < 4; i++) {
+        for (j = 0; j < 4; j++) {
+            if(matrix[i][j]==0) {
+                n++;
+                if (n == c) {
+                    matrix[i][j] =rand()%5<4?2:4;
+                    score+=matrix[i][j];
+                }
+            }
+        }
+    }
+    return 0;
+
 }
-//    for(i=0;i<4;i++)
-//    {
-//        for(j=0;j<4;j++)
-//        {
-//            printf("%3d",matrix[i][j]);
-//        }
-//        printf("\n");
-//    }
-//}
+

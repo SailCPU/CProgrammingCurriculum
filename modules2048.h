@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include<time.h>
 #include<math.h>
-//#include <bios.h>
+
 
 
 #define Key_Up 8
@@ -21,12 +21,12 @@ extern int score;
 extern int MaxNumber;
 extern int oneLine[4];
 
-void init();
+
 void update(int keyId);
 int maxNumber();
 int compare(int x,int y,int z,int r);
 int display();
 void compress(int a1,int a2,int a3,int a4);
-void addElementRandom();
+int addElementRandom();
 
 #endif //CPROGRAMMINGCURRICULUM_MODULES_H
