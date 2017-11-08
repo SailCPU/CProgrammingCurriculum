@@ -4,13 +4,12 @@
  * Authors: Sail Yang <SailCPU@gmail.com>
  *
  */
-
-#include <stdio.h>
-#include <stdlib.h>
+#include "modules2048.h"
 
 int main()
 {
-   tiger1();
+
+//   tiger1();
 //    issue1();
     //issue2();
     //issue3();
