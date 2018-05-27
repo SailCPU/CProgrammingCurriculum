@@ -8,5 +8,5 @@ void main(){
     int a,b;
     scanf("%d",&a);
     b=fabs(a);
-    printf("%d",b);
+    printf(" %d",b);
 }
