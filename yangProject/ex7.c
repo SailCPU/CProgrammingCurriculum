@@ -7,6 +7,7 @@
 void main() {
     int a,b,c;
     scanf("%d",&a);
+    c=0;
 
     for(b=2;b<a;b++){
         if (a%b==0){
