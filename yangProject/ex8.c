@@ -5,7 +5,7 @@
 #include <stdio.h>
 void main() {
     float a, b, s;
-     s=0;
+    s=0;
     for (a = 0; a < 50; a++) {
         b = 1 / (1 + 2 * a);
         s = b + s;
