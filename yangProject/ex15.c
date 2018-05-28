@@ -5,5 +5,21 @@
 */
 #include <stdio.h>
 void main(){
-    printf("ex15");
-}
+    int i,j,q;
+    q=5;
+    for(i=0;i<q*8;i++){
+        for(j=0;j<q*8;j++){
+
+            if(((j/q)%2==0^(i/q)%2==1)){
+                printf("x");
+        } else{
+                printf(" ");
+        }if(j==q*8-1){
+                printf("\n");
+            }
+
+    }
+        }
+    }
+
+
