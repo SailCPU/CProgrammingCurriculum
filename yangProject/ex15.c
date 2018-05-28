@@ -6,7 +6,7 @@
 #include <stdio.h>
 void main(){
     int i,j,q;
-    q=5;
+    q= 5;
     for(i=0;i<q*8;i++){
         for(j=0;j<q*8;j++){
 
