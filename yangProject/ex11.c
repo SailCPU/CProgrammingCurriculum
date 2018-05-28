@@ -5,5 +5,26 @@
 */
 #include <stdio.h>
 void main(){
-    printf("ex11");
+    int x,y,z,n,i,j,q,k;
+    scanf("%d,%d,%d",&x,&y,&z);
+    if(x>y){
+        n=x,x=y,y=n;
+        if(x>z){
+            i=x,x=z;z=i;
+            if(y>z){
+                k=y,y=z,z=k;
+            }
+        } else{
+            if(z<y){
+                j=z,z=y;y=j;
+            }
+        }
+        } else{
+            if(y>z){
+            q=y,y=z;z=q;
+        }
+    }
+
+
+    printf("%d,%d,%d",x,y,z);
 }
