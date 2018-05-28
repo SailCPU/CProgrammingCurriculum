@@ -16,7 +16,7 @@ void main(){
         b=sqrt(b);c=sqrt(c);
         x=(int)b,y=(int)c;
         if (b==x||c==y){
-            printf("%d",a);
+            printf("%d\n",a);
         }
 
     }
