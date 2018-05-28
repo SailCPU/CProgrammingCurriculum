@@ -5,5 +5,11 @@
 */
 #include <stdio.h>
 void main(){
-    printf("ex13");
+    printf("   *******\n");
+    printf("  **      \n");
+    printf(" **       \n");
+    printf(" **       \n");
+    printf("  **      \n");
+    printf("   *******\n");
+
 }
