@@ -13,16 +13,15 @@ void main(){
     //警告1：b和x都是double型，double型的数不能用==来比较，实际使用时一般是这样：fabs(b-x)<0.0000001。
     //警告2：int一般表示数的范围在-32767到32768。因为你的电脑是64位的，int是32位，所以a能表示到100000，否则会报错的。
     //警告3：应该更直观的将结果打印出来。比如这个数+100为什么是完全平方数，这个数加上268为什么是完全平方数。换成以下打印会好点。
-    int a;
+    long a;
     double b,c,x,y;
     for (a = 0; a <100000 ; a++) {
-        printf("%d \n", (int)sizeof(a));
+
         b=a+100,c=a+268;
         b=sqrt(b);c=sqrt(c);
         x=(int)b,y=(int)c;
-        if (b==x||c==y){
-            printf("%d\n",a);
-            //printf("a=%d, sqrt(a+100)=%f,sqrt(a+268)=%f\n",a,sqrt(a+100),sqrt(a+268))；
+        if (fabs(b-x)<0.000001&&fabs(c-y)<0.000001){
+            printf("a=%d, sqrt(a+100)=%f,sqrt(a+268)=%f\n",a,sqrt(a+100),sqrt(a+268));
         }
 
     }
