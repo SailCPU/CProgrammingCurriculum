@@ -6,5 +6,19 @@
 */
 #include <stdio.h>
 void main(){
-    printf("ex17");
+    int a,b,c,s;
+    s=0;
+    for(a=101;a<=200;a++){
+        c=0;
+        for(b=2;b<a;b++){
+         if(a%b==0)   {
+             c++;
+         }
+        }if(c==0){
+            s++;
+            printf("%d\n",a);
+        }
+    }
+
+    printf("101-200之间有%d个素数",s);
 }
