@@ -5,5 +5,9 @@
 */
 #include <stdio.h>
 void main(){
-    printf("ex20");
+    int x;
+    char y;
+    scanf("%d",&x);
+    (x<=90)?"A":((x>=60)?"B":"C");
+    printf("%c",y);
 }
