@@ -5,9 +5,21 @@
 */
 #include <stdio.h>
 void main(){
-    int x;
-    char y;
+    int x,y;
+
     scanf("%d",&x);
-    (x<=90)?"A":((x>=60)?"B":"C");
-    printf("%c",y);
-}
+
+    y=(x>=90)?1:((x>=60)?2:3);
+    if(y==1){
+        putchar('A');
+    }
+    if(y==2){
+            putchar('B');
+        }
+    if(y==3){
+     putchar('C');
+
+    }
+    }
+
+
