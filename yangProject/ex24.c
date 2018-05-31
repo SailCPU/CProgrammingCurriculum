@@ -4,5 +4,18 @@
 */
 #include <stdio.h>
 void main(){
-    printf("ex24");
-}
+    int a,b,c,s;
+
+    for(a=1;a<1000;a++){
+        s=0;
+        for(b=1;b<a;b++) {
+            if (a % b == 0) {
+                s = s + b;
+            }
+        }if(s==a){
+                printf("%d\n",s);
+            }
+    }
+    }
+
+
