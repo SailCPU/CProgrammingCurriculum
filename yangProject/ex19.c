@@ -9,5 +9,15 @@
 */
 #include <stdio.h>
 void main(){
-    printf("ex19");
+    int n,k,j;
+    scanf("%d",&n);
+    printf("%d=",n);
+    j=n;
+    for(k=2;k<n;k++){
+        while(j%k==0){
+            printf("%d*",k);
+            j=j/k;
+        }
+    }
+    printf("1");
 }
