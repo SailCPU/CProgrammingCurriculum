@@ -6,5 +6,13 @@
 */
 #include <stdio.h>
 void main(){
-    printf("ex26");
+    int a,b,c,x;
+    scanf("%d",&b);
+    c=1;
+    for(a=1;a<b;a++){
+        x=(c+1)*2;
+        c=x;
+    }
+
+    printf("共有%d个桃子",x);
 }
