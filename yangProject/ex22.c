@@ -5,5 +5,21 @@
 */
 #include <stdio.h>
 void main(){
-    printf("ex22");
+    char a;
+    int b=0,c=0,d=0,e=0;
+    while((a=getchar())!='\n'){
+       if(a>='a'&&a<'z'||a>='A'&&a<='Z'){
+           b++;
+       }
+        else if(a==' '){
+           c++;
+       } else if(a>='0'&&a<='9'){
+           d++;
+       } else{
+           e++;
+       }
+    }
+    
+    printf("字母数：%d\n空格数：%d\n数字数：%d\n其他字符：%d\n",b,c,d,e);
+
 }
