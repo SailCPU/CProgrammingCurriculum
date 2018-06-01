@@ -6,5 +6,14 @@
 */
 #include <stdio.h>
 void main(){
-    printf("ex23");
+    int a,b,s,c,n;
+    scanf("%d,%d",&a,&b);
+    s=0;
+    if(0<a<=9){
+        for(c=1;c<=b;c++){
+            n=a+n*10;
+            s=s+n;
+        }
+    }
+    printf("%d",s);
 }
